@@ -1,0 +1,41 @@
+<speak>
+  <seq>
+    <media>
+      <speak>
+        <mark name="slide-title"/>
+        <s>Hola. En este video de Ada School veremos los diferentes tipos de componentes que existen en React.</s>
+        <s>Comencemos.</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>El objetivo de hoy, es aprender la diferencia entre componentes de clase y componentes funcionales.</s>
+        <s>Recuerda que React es una librería para crear interfaces de usuario usando componentes. Estos componentes nos permiten dividir la interfaz de una aplicación en piezas reusables.</s>
+        <s>Conceptualmente, los componentes son como funciones de JavaScript. Aceptan parámetros de entrada, que llamamos propiedades, y retornan elementos de React que describen cómo debería verse la interfaz de usuario.</s>
+        <s>Estas funciones se consideran funciones puras, ya que no intentan cambiar sus parámetros de entrada y siempre retornan el mismo resultado con base en sus parámetros.</s>
+        <s>Recuerda que un componente puede crearse con propiedades diferentes, para producir diferentes resultados. Sin embargo, una vez el componente ha sido creado, sus propiedades no pueden cambiarse.</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>La manera mas sencilla de crear un componente en React es crear una función en JavaScript. A esta forma de escribir componentes se le conoce como componentes funcionales.</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>Como ves en este ejemplo, también podemos definir los componentes usando clases. Para React, las dos formas son equivalentes.</s>
+      </speak>
+    </media>
+
+    <media begin="3s">
+      <speak>
+        <s>¿Cuál de los dos tipos de componentes debo usar?</s>
+        <s>Aunque los componentes de clase aún son válidos en versiones recientes de React, la manera funcional resulta en una definición más corta y más clara de entender. Por lo que es la opción preferida.</s>
+      </speak>
+    </media>
+
+  </seq>
+</speak>

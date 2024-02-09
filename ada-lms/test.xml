@@ -1,0 +1,36 @@
+<speak>
+  <p>
+    <s>Hello. In this video we will see a demo of the Ada School learning platform</s>
+    <s>Let's get started.</s>
+  </p>
+  <break time="2s" />
+  <p>
+    <s>Within the Ada School learning community, we find different types of users such as: Mentors, students, administrators, among others.</s>
+    <s>Let's first look at the learning platform from a student's perspective.</s>
+  </p>
+  <break time="3s" />
+  <p>
+    <s> By logging in the student can see her courses and learning paths. In addition to relevant information such as notifications, and gamification elements such as coins you currently have, number of badges and experience level.</s>
+    <s>The badges will allow them to act as micro credentials, which can be used to demonstrate technical and human skills when graduating students begin the process to improve their working conditions.</s>
+    <s> The coins allow to be exchanged for micro courses that the student can use to acquire new badges and improve her profile. </s>
+    <s>Experience level increases as items are completed; such as content, quizzes and group and individual laboratories.</s>
+  </p>
+  <break time="1s" />
+  <p>
+    <s>The platform is built based on Ada School's agile methodology to encourage both individual and group work.</s>
+    <s>When entering the route we can see the board in the form of a kanban board.</s>
+    <s>Using agile methodologies within the learning process, students are prepared for the tools used in a work environment.</s>
+    <s>Within this board you can also find a calendar with the following relevant events for the student, such as mentoring sessions or hackathons. Each student can view events in their time zone.</S>
+    <s>The dashboard also provides information on the student's current progress within the pathway, and each of the courses and modules that comprise it.</s>
+    <s>Current grade based on group work, quizzes, and course projects can also be viewed on the dashboard.</s>
+    <s>Live sessions are recorded so the student can review them again and provide feedback to our team.</s>
+    <s>Now let's see an interactive content.</s>
+  </p>
+  <break time="1s" />
+  <p>
+    <s>The student can see different types of content such as articles, videos, quizzes, individual and group practical laboratories.</s>
+    <s>By completing content or having a good grade in the quizzes, the student will acquire experience points and coins that can be redeemed in the future.</s>
+    <s> Upon completion of a topic, the student receives a badge that will be added to her pool of badges in order to demonstrate her technical knowledge to an employer. </s>
+    <s> Upon completing a route, the student receives a digital certificate that she can share on her social networks. </s>
+  </p>
+</speak>

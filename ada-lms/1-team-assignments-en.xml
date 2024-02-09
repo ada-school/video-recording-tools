@@ -1,0 +1,34 @@
+<speak>
+  <seq>
+
+    <mean>
+      <speak>
+        <s>Hello. In this video from the Ada School platform we will see the self-grading teamwork.</s>
+        <s>Let's get started.</s>
+      </speak>
+    </media>
+    <media begin="2s">
+      <speak>
+        <s>At Ada School we consider human skills to be just as important as technical skills.</s>
+        <s>One of the most used human skills in the industry is teamwork.</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>The Ada School platform allows you to create student teams within a cohort. Students decide how to form the teams for group work.</s>
+        <s>After creating a team, each member receives a different task that is part of the group task.</s>
+        <s> Each student must solve her homework with the help of her team members. Once they solve the task, the platform uses unit tests to evaluate the result.</s>
+        <s>When these unit tests pass, the result is uploaded to the platform so that other team members can use it as part of the group task.</s>
+        <s>when all team members have uploaded their solutions, they are graded and can progress with other course assignments </s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>The platform is built based on Ada School's agile methodology to encourage both individual and group work.</s>
+      </speak>
+    </media>
+
+  </seq>
+</speak>

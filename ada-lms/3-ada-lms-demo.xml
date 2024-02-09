@@ -1,0 +1,26 @@
+<speak>
+  <seq>
+
+    <media>
+      <speak>
+        <s>Veamos ahora el perfil del estudiante</s>
+        <s>Dentro de su perfil, el estudiante puede completar su información personal para subir de nivel. Completemos la información de este estudiante.</s>
+      </speak>
+    </media>
+
+    <media begin="11s">
+      <speak>
+        <s>También puede ver las insignias y certificados que ha adquirido y compartirlas en redes sociales.</s>
+        <s>Al subir de nivel, los estudiantes pueden personalizar su avatar quien los representa dentro de la comunidad de Ada School</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>El estudiante también puede invitar a otros a hacer parte de la comunidad.</s>
+        <s>Si hace parte de un equipo, puede también editarlo o crear nuevos equipos para hacer trabajos grupales con otros estudiantes; fomentando las habilidades de comunicación.</s>
+      </speak>
+    </media>
+
+  </seq>
+</speak>

@@ -1,0 +1,22 @@
+<speak>
+  <seq>
+
+    <media>
+      <speak>
+        <s>¿Conoces las pruebas unitarias?</s>
+      </speak>
+    </media>
+
+    <media begin="1s">
+      <speak>
+        <s>Las pruebas unitarias son pruebas automatizadas que permiten mantener y mejorar la calidad de un software.</s>
+        <s>¿Que tal sería si pudieras usar pruebas unitarias para verificar el aprendizaje de los miembros de tu organización?</s>
+        <s>Dentro de la experiencia de aprendizaje en Ada School, nuestros alumnos deben resolver laboratorios de código que se califican con pruebas unitarias, practicando calidad de software mientras aprenden</s>
+        <s>Existen laboratorios grupales e individuales, que mejoran tanto las habilidades técnicas como humanas</s>
+        <s>En un laboratorio en equipo, cada miembro recibe una tarea diferente.</s>
+        <s>Una vez todos los miembros resuelven sus tareas individuales, corren las pruebas unitarias. Si estas pasan, el laboratorio se completa para todos los miembros del equipo, asignando una calificación.</s>
+      </speak>
+    </media>
+
+  </seq>
+</speak>

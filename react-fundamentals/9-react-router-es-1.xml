@@ -1,0 +1,29 @@
+<speak>
+  <seq>
+
+    <media>
+      <speak>
+        <mark name="slide-title"/>
+        <s>Hola. En este video de Ada School veremos qué es React router.</s>
+        <s>Comencemos.</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>Recuerda que las aplicaciones web usan URLs para poder navegar dentro del contenido. Cada URL representa una interfaz única donde el usuario puede ver información. En este ejemplo, puedes ver un árbol de navegación de una aplicación web.</s>
+        <s>React router es una librería de React que provee herramientas para el manejo de enrutamiento en el lado del cliente</s>
+        <s>Te preguntarás ¿qué es el enrutamiento en el lado del cliente?</s>
+      </speak>
+    </media>
+
+    <media begin="1s">
+      <speak>
+        <s>En los sitios web tradicionales, el navegador solicita un documento a un servidor web, descarga y evalúa los archivos de CSS y JavaScript, y presenta el HTML enviado desde el servidor. Cuando el usuario hace clic en un enlace, el proceso comienza de nuevo para una nueva página.</s>
+        <s>El enrutamiento del lado del cliente permite que una aplicación actualice la URL desde un clic en un enlace, sin realizar otra solicitud de otro documento al servidor. En su lugar, la aplicación puede mostrar inmediatamente una nueva interfaz de usuario y realizar solicitudes de datos o archivos que necesita para actualizar la página con nueva información.</s>
+        <s>Esto permite experiencias de usuario más rápidas porque el navegador no necesita solicitar un documento completamente nuevo o volver a evaluar los archivos de CSS y JavaScript para la página siguiente. También permite experiencias de usuario más dinámicas con animaciones.</s>
+      </speak>
+    </media>
+
+  </seq>
+</speak>

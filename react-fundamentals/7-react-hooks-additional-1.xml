@@ -1,0 +1,53 @@
+<speak>
+  <seq>
+    <media>
+      <speak>
+        <mark name="slide-title"/>
+        <s>Hola. En este video de Ada School veremos los hooks importantes para manejar estados complejos.</s>
+        <s>Comencemos.</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>El objetivo de hoy, es explorar patrones avanzados para el manejo del estado de un componente.</s>
+        <s>Recuerda que el hook <lang xml:lang="en-US">useState</lang> nos permite leer y escribir el estado de un componente.</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>Las aplicaciones de software crecen, y cambian con el tiempo. Al crecer, aumentan también su complejidad ofreciendo nuevas funcionalidades a los usuarios.</s>
+        <s>Debes considerar desde el inicio, que tu aplicación va a crecer. Construirla de manera que puedas agregar nuevas funcionalidades rápidamente, juega un papel importante en el éxito de tu aplicación.</s>
+        <s>Por eso siempre debes buscar mejores maneras para hacer tu código más claro y reusable</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>Imagina que tenemos un componente que responde a varios eventos de interacción del usuario.</s>
+        <s>Por ejemplo, un juego para encontrar pares. En este juego debes manejar varios estados: Qué cartas estan seleccionadas, qué cartas ya han formado una pareja, cuantas jugadas se han hecho, entre otros.</s>
+        <s>Aunque podríamos manejar cada uno de estos estados independientemente, nuestro componente se vuelve difícil de entender, por lo tanto difícil de cambiar.</s>
+        <s>Una mejor manera de consolidar varios estados relacionados es usando el hook llamado <lang xml:lang="en-US">use reducer</lang>.
+        </s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>El hook <lang xml:lang="en-US">use reducer</lang> recibe 2 parámetros. El primero es una función en donde consolidamos los cambios de todos los estados. Esta función se le conoce generalmente como <lang xml:lang="en-US">reducer</lang>. El segundo parámetro es el estado inicial consolidado.</s>
+        <s>Similar al <lang xml:lang="en-US">useState</lang>, este hook retorna 2 valores. El primero es una variable en donde se almacena el valor actual del estado consolidado, y el segundo es una función que nos permite hacer cambios al estado. Acá puedes ver un ejemplo.
+        </s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>A pesar de ser similar a <lang xml:lang="en-US">useState</lang>, tiene una diferencia fundamental. La función donde se hacen los cambios no esta acoplada al componente. Es decir, es una mejor estructura ya que el componente no necesita saber cómo hacer los cambios al estado; Simplemente debe informar del evento que sucedió, y la lógica de cómo manejarlo está en el <lang xml:lang="en-US">reducer</lang>.
+        </s>
+        <s>En general si estructuras tu aplicación como piezas flexibles, será mas fácil de cambiar.</s>
+      </speak>
+    </media>
+
+  </seq>
+</speak>

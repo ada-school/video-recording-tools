@@ -1,0 +1,59 @@
+<speak>
+  <seq>
+    <media>
+      <speak>
+        <s>La variable que provee el hook <lang xml:lang="en-US">useState</lang>, es de solo lectura. Es decir, su valor no puede ser cambiado manualmente. Para cambiar el estado de un componente, es necesario usar la función que provee el hook.
+        </s>
+        <s>Acá puedes ver el uso incorrecto y correcto del estado.</s>
+      </speak>
+    </media>
+
+    <media begin="3s">
+      <speak>
+        <s>Cada componente de React es una entidad reusable que puede usarse múltiples veces en diferentes contextos. El hook <lang xml:lang="en-US">useState</lang> garantiza que cada uno tenga un estado independiente. Es decir, cada instancia de un componente tiene su propia memoria.</s>
+      </speak>
+    </media>
+    <media begin="3s">
+      <speak>
+        <s>Dentro del desarrollo de las aplicaciones de React, encontrarás que es común compartir el mismo estado para varios componentes. Imagina que tenemos una aplicación que muestra detalles de información de una ciudad; esta aplicación usa páneles dentro de un acordión. Cada panel es una instancia del mismo componente que se expande al hacer click en el botón de ver más. Al hacer click en uno de los páneles; queremos que todos los otros páneles que estén abiertos se colapsen. A este comportamiento se le conoce como acordión.</s>
+        <s>Para esto, debemos compartir el estado de los componentes. Una manera de hacerlo, es levantando el estado de los componentes al padre más cercano. En este ejemplo, el padre más cercano es el componente que contiene a los dos páneles, el acordión.</s>
+        <s>A esta técnica se le conoce como <lang xml:lang="en-US">lifting state up</lang>. En donde el control del estado de los componentes pasa a un padre, por lo que los componentes hijos se convierten en lo que llamamos, componentes controlados.
+        </s>
+      </speak>
+    </media>
+
+    <media begin="3s">
+      <speak>
+        <s>Los componentes de React también pueden sincronizar la interfaz de usuario usando fuentes de datos externas.</s>
+        <s>Para esto podemos usar el hook llamado <lang xml:lang="en-US">use Effect</lang>.
+        </s>
+        <s>El concepto de efectos proviene del concepto de programación conocido como <lang xml:lang="en-US">side effect</lang>. Un <lang xml:lang="en-US">side effect</lang> es cuando una función depende o modifica algo externo que no esta dentro de sus parámetros de entrada.</s>
+        <s>En React, es cuando un componente depende o modifica algo externo que no esta dentro de sus propiedades.</s>
+        <s>Usando el hook <lang xml:lang="en-US">use Effect</lang>, podemos definir efectos que se ejecutan cuando el componente se crea, cada vez que se renderiza o cuando alguna variable cambia.</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>Para crear un efecto, debes usar el hook. El hook acepta dos parámetros, el primero es una función que se ejecutará en respuesta a los 3 tipos de cambio. El segundo es un arreglo de las variables que serán observadas por cambios. Acá puedes ver un ejemplo de cada caso.</s>
+      </speak>
+    </media>
+
+    <media begin="3s">
+      <speak>
+        <s>Uno de los usos mas comunes para <lang xml:lang="en-US">use Effect</lang>, es consumir un API externo que retorne datos. Estos datos se usan para actualizar la interfaz y mostrar información al usuario</s>
+        <s>El siguiente ejemplo hace uso de un API de mascotas. Usando <lang xml:lang="en-US">use Effect</lang> podemos cargar una imagen de una mascota al azar cada vez que el componente se monta. Un componente se considera montado cuando aparece en pantalla por primera vez.</s>
+      </speak>
+    </media>
+
+    <media begin="3s">
+      <speak>
+        <s>Otro uso común para <lang xml:lang="en-US">use Effect</lang>, es suscribirse a eventos. Ya sea de un servidor externo, o eventos propios del navegador. En este ejemplo nos suscribimos al evento de <lang xml:lang="en-US">scroll</lang> del navegador. Este es un evento externo al componente, por lo tanto debemos usar <lang xml:lang="en-US">use Effect</lang>.
+        </s>
+        <s>Al suscribirnos a eventos, es importante hacer limpieza cuando el componente ya no existe. Por ejemplo, cuando un componente es desmontado porque ya no es visible, no queremos que la suscripción que creamos inicialmente siga consumiendo recursos del navegador. Para esto, podemos retornar una función en el efecto; Esta función se ejecutará cuando el componente se desmonte; lo que nos permitirá cancelar la suscripción.</s>
+        <s>Acá puedes ver el código de ejemplo.</s>
+      </speak>
+    </media>
+
+  </seq>
+</speak>

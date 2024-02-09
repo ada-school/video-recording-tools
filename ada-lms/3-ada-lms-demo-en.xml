@@ -1,0 +1,26 @@
+<speak>
+  <seq>
+
+    <mean>
+      <speak>
+        <s>Now let's see the student profile</s>
+        <s>Within their profile, the student can fill in their personal information to level up. Let's fill in the information for this student.</s>
+      </speak>
+    </media>
+
+    <media begin="11s">
+      <speak>
+        <s>You can also view the badges and certificates you have acquired and share them on social networks.</s>
+        <s>Upon leveling up, students can customize their avatar who represents them within the Ada School community</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>The student can also invite others to be part of the community.</s>
+        <s>If you are part of a team, you can also edit it or create new teams to do group work with other students; promoting communication skills.</s>
+      </speak>
+    </media>
+
+  </seq>
+</speak>

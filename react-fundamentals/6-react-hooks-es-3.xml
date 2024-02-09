@@ -1,0 +1,12 @@
+<speak>
+  <seq>
+
+    <media>
+      <speak>
+        <s>Hoy aprendiste cómo usar hooks en un componente funcional. Recuerda que el hook <lang xml:lang="en-US">useState</lang> se usa para almacenar valores dentro del estado de un componente. Básicamente, actúa como una memoria.</s>
+        <s>Por otro lado, el hook <lang xml:lang="en-US">use Effect</lang> permite ejecutar efectos en respuesta a cambios; Por ejemplo conectarse, o suscribirse a APIs externos.</s>
+      </speak>
+    </media>
+
+  </seq>
+</speak>

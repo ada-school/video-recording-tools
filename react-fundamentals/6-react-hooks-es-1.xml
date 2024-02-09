@@ -1,0 +1,49 @@
+<speak>
+  <seq>
+    <media>
+      <speak>
+        <mark name="slide-title"/>
+        <s>Hola. En este video de Ada School veremos qué son los React Hooks.</s>
+        <s>Comencemos.</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>El objetivo de hoy, es aprender los tipos principales de hooks que existen y cómo usarlos.</s>
+        <s>Recuerda que React es una librería para crear interfaces de usuario usando componentes. El poder de React, radica en que los componentes se construyan como piezas reusables.</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>Recuerda que un componente puede crearse con propiedades diferentes, para producir diferentes resultados. Sin embargo, una vez el componente ha sido creado, sus propiedades no pueden cambiarse.</s>
+        <s>Pero si las propiedades no puden cambiarse. ¿Cómo hacen los componentes para reaccionar a la interacción del usuario?</s>
+        <s>¿Cómo hacen para leer información externa?</s>
+        <s>Para esto podemos usar React hooks. Los hooks son funciones que permiten añadir comportamientos a los componentes funcionales. Estos comportamientos pueden reusarse en diferentes componentes.</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>Los componentes deben cambiar lo que se muestra en la interfaz en respuesta a una interacción del usuario. Por ejemplo, escribir dentro de una caja de texto o agregar un producto a un carrito de compras. En general, los componentes deben poder recordar este tipo de cosas. En React, a este tipo de memoria del componente se le conoce como state o estado.</s>
+        <s>El estado se mantiene cuando el componente se vuelve a renderizar. Por ejemplo, al cambiar sus propiedades. Sin embargo, si el estado de un componente cambia, el componente se renderiza de nuevo para reflejar los cambios en la interfaz de usuario.</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>Para poder leer y escribir información en el estado del componente, React provee un hook llamado <lang xml:lang="en-US">useState</lang>. Este hook recibe un estado inicial, y retorna dos valores; Una variable en donde se almacena el valor actual del estado y una función que permite escribir un nuevo estado deseado.</s>
+        <s>Acá puedes ver un ejemplo usando <lang xml:lang="en-US">useState</lang> que permite incrementar en uno el contador que muestra la aplicación
+        </s>
+      </speak>
+    </media>
+
+    <media begin="3s">
+      <speak>
+        <s>Un componente puede tener múltiples variables de estado. Como puedes ver en el ejemplo, el componente tiene ahora dos estados, uno para almacenar el valor del contador y otro para cambiar la apariencia de la aplicación.</s>
+      </speak>
+    </media>
+
+  </seq>
+</speak>

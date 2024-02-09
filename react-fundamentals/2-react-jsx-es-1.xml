@@ -1,0 +1,64 @@
+<speak>
+  <seq>
+    <media>
+      <speak>
+        <mark name="slide-title"/>
+        <s>Hola. En este video de Ada School veremos la estructura de un componente de React.</s>
+        <s>Comencemos.</s>
+      </speak>
+    </media>
+    <media begin="2s">
+      <speak>
+        <mark name="slide-objectives"/>
+        <s>El objetivo de hoy, es aprender que es JSX.</s>
+
+        <mark name="slide-jsx"/>
+        <s>Recuerda que en React las interfaces de usuario se construyen a partir de componentes.</s>
+        <s>React parte de la base que la lógica para renderizar un componente está acoplada a la interacción y a los datos necesarios para mostrar el componente. Con esta base, React no separa en diferentes archivos la interfaz de la lógica, como lo hacen otras librerias o frameworks.</s>
+        <s>Para facilitar la creación de componentes desde un solo archivo, React permite usar etiquetas de HTML dentro del código de JavaScript. Para esto, hace uso de una extension de la sintaxis de JavaScript llamada JSX.</s>
+        <s>JSX significa, JavaScript XML.</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>¿Es necesario usar JSX para desarrollar aplicaciones en React?</s>
+        <s>En general, no lo es. Sin embargo, se recomienda usar JSX ya que hace mucho más fácil el desarrollo.</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>Algo importante a tener en cuenta, es que JSX no es soportado directamente por los navegadores. Por esta razón, JSX debe transformarse en JavaScript. Al proceso en el cual se transforma código JSX en código JavaScript se le conoce como transpilación.</s>
+        <s>Existen varias herramientas para transformar JSX y poder ver nuestras aplicaciones en los navegadores. Generalmente estas herramientas pueden incluirse dentro de tu ambiente de desarrollo. Al compilar la aplicación, estas herramientas transforman el JSX en JavaScript.</s>
+        <s>Las herramientas dentro de tu ambiente de desarrollo tienen otras responsabilidades como: Reducir el tamaño de los archivos, procesar CSS, correr pruebas, y dar formato automáticamente al código, entre otras.</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>Ya que JSX incluye sintaxis tanto de HTML como JavaScript, debemos tener en cuenta algunas reglas particulares. Por ejemplo:</s>
+        <s>El atributo class de HTML se convierte en className, ya que dentro de JavaScript class es una palabra reservada.</s>
+        <s>Las propiedades de todos los elementos de HTML deben ser escritas en <lang xml:lang="en-US">camelCase.</lang>
+        </s>
+        <s>Todos los elementos de HTML deben cerrarse.</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>Usando Babel, una de las herramientas de desarrollo, podemos ver un ejemplo de cómo se transforma código JSX en JavaScript.</s>
+        <s>Como puedes ver, el código generado es más complejo que el código de JSX. Esta es una de las ventajas de usar JSX en ves de usar JavaScript directamente.</s>
+      </speak>
+    </media>
+
+    <media begin="3s">
+      <speak>
+        <s>Es importante tener en cuenta que un componente de React debe siempre retornar un único elemento. Si intentamos retornar varios elementos a la vez, obtendremos un error. Para solucionar esto, debemos ajustar nuestro código para incluir nuestros elementos dentro de un único padre.</s>
+        <s>Esto puede ser un problema cuando nuestra estructura de HTML usa un listado de elementos. Para no crear un nuevo elemento en el Dom, podemos usar un <lang xml:lang="en-US">React Fragment</lang>. El propósito principal del <lang xml:lang="en-US">React Fragment</lang> es poder agrupar varios elementos en un componente de React sin crear un nuevo elemento Dom</s>
+        <s>Como puedes ver en el ejemplo, el <lang xml:lang="en-US">React Fragment</lang> puede escribirse de dos formas. Usando directamente el nombre, ó haciendo uso de un elemento vacío; Este elemento vacío solamente es válido en JSX, no hace parte del estándar de HTML.</s>
+        <s></s>
+      </speak>
+    </media>
+  </seq>
+</speak>

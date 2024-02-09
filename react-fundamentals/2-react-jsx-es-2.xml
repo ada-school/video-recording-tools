@@ -1,0 +1,26 @@
+<speak>
+  <seq>
+    <media begin="2s">
+      <speak>
+        <s>JSX nos permite definir componentes de React usando una sintaxis similar a HTML, que incluye JavaScript. Esto significa, que podemos incluir expresiones de JavaScript dentro del código de JSX.</s>
+        <s>Para definir estas expresiones debemos incluirlas dentro de llaves, como ves aquí.</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>Después del proceso de compilación, las expresiones de JSX se convierten en funciones regulares de JavaScript. Al ser ejecutadas, retornan objetos de JavaScript; Esto significa que JSX puede ser usado dentro de condicionales, ciclos, asignado a variables, aceptado como parámetro y retornado en funciones; Tal como cualquier otra expresión de JavaScript. Acá puedes ver un ejemplo.</s>
+      </speak>
+    </media>
+
+    <media begin="3s">
+      <speak>
+        <s>Para pasar atributos a los elementos HTML puedes usar comillas dobles, o usar una expresiones de JavaScript encerradas en llaves, como este ejemplo.</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak></speak>
+    </media>
+  </seq>
+</speak>

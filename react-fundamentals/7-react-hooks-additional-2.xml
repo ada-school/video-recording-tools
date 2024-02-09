@@ -1,0 +1,39 @@
+<speak>
+  <seq>
+    <media>
+      <speak>
+        <s>Recuerda que puedes usar la estrategia de <lang xml:lang="en-US">lift state up</lang> para compartir tu estado con varios hijos. Esto permite comunicar componentes y configurarlos usando sus propiedades. Sin embargo, cuando el componente padre que contiene el estado está arriba del árbol, los componentes hijos que necesitan los datos pueden tener varios intermediarios.</s>
+        <s>Encontrarás que debes pasar propiedades dentro de varios componentes hijos. Es decir pasar propiedades atravesando el árbol de componentes.</s>
+        <s>A este fenómeno se le conoce como <lang xml:lang="en-US">prop drilling</lang>, o perforación de propiedades.</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>Para solucionar este problema, además de tener una opción para compartir propiedades globales de la aplicación. Existe el hook llamado <lang xml:lang="en-US">use context</lang>
+        </s>
+        <s>El nombre proviene del <lang xml:lang="en-US">Context API</lang> de React para manejar el contexto de una aplicación. El contexo en react se define como datos que son compartidos por varios o todos los componentes de la aplicación. Recuerda que <lang xml:lang="en-US">use State</lang> representa la memoria de un componente. En este caso, <lang xml:lang="en-US">use context</lang> representa una memoria de toda tu aplicación. Por ejemplo: datos del usuario que está autenticado, ó datos de la apariencia general de la aplicación, entre otros.</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>Para usar el contexto, primero debes crearlo. Puedes crear diferentes contextos dependiendo de los requerimientos de tu aplicación. Por ejemplo, un contexto para el usuario, y otro para el tema de la aplicación.</s>
+        <s>Generalmente, un contexto se define en un archivo aparte. Esto permite usar el mismo contexto en varios componentes. Como ves en el ejemplo, el contexto recibe el valor por defecto del estado que quieres almacenar.</s>
+        <s>El siguiente paso es usar el hook <lang xml:lang="en-US">use context</lang>. El hook recibe como parametro el contexto de donde quieres leer la información, y retorna el valor actual del estado global almacenado.</s>
+        <s>Observa que sin importar qué tan profundo esté el componente en el árbol de la aplicación, usando <lang xml:lang="en-US">use context</lang> puedes acceder a los datos sin necesidad de pasar propiedades a través de los componentes que se encuentran en el medio.
+        </s>
+        <s>El último paso, es proveer la información del contexto dentro del árbol de componentes de la aplicación. Para esto puedes importar el contexto que creaste en el primer paso, y hacer uso del componente <lang xml:lang="en-US">provider</lang>. Puedes colocar este proveedor en cualquier parte del árbol que contenga a los componentes hijos que necesitan la información. Generalmente será dentro de un componente que esté arriba del árbol.</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>Observa que en el ejemplo anterior, sólo leimos información del contexto. Pero, ¿Cómo podriamos cambiar los datos del contexto?.</s>
+        <s>Recuerda que React provee los bloques de construcción para hacer aplicaciones robustas. Depende de tí usarlas correctamente.</s>
+        <s>En este caso, puedes combinar <lang xml:lang="en-US">use reducer</lang> y <lang xml:lang="en-US">use context</lang> para proveer a tus componentes hijos, un estado compartido que pueden editar a través de una función <lang xml:lang="en-US">reducer</lang>. Los componentes no necesitan saber cómo cambiar el estado global, ya que esta lógica estará en el <lang xml:lang="en-US">reducer</lang>. Además no necesitas pasar las propiedades por componentes intermedios ya que estás usando el contexto. Esto hace que puedas crear una aplicación flexible a los cambios de tus requerimientos.
+        </s>
+      </speak>
+    </media>
+  </seq>
+</speak>

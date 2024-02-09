@@ -1,0 +1,22 @@
+<speak>
+  <seq>
+
+    <media>
+      <speak>
+        <s>¿Conoces las metodologías ágiles?</s>
+      </speak>
+    </media>
+
+    <media begin="1s">
+      <speak>
+        <s>Las metodologías ágiles son una práctica estándar dentro de muchas organizaciones. Usando metodologías ágiles, puedes dar valor a tus clientes en pequeños incrementos. Se pueden aplicar en varios contextos, por ejemplo: desarrollo de software, y en nuestro caso, en educación profesional.</s>
+        <s>Cada persona dentro de tu organización es un diamante en bruto, que por medio de pequeños incrementos puede mejorar adquiriendo más brillo.</s>
+        <s>La plataforma de Ada School está diseñada para maximizar el aprendizaje de nuestros estudiantes usando la metodología ágil SCRUM.</s>
+        <s>Cada 2 semanas, nuestros estudiantes adquieren nuevos conocimientos de manera práctica construyendo un producto incremental. Al final de este periodo, presentan su avance. Tal cual como lo hacen empresas de desarrollo de software!</s>
+        <s>Esto hace que nuestros estudiantes practiquen metodologías ágiles mientras aprenden, mejorando sus habilidades técnicas y humanas.</s>
+        <s>Acá puedes ver un ejemplo del tablero ágil que nuestros estudiantes usan. También el calendario donde pueden ver las sesiones en vivo con mentores y las revisiones de sus productos.</s>
+      </speak>
+    </media>
+
+  </seq>
+</speak>

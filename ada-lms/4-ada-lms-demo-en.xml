@@ -1,0 +1,47 @@
+<speak>
+  <seq>
+
+    <mean>
+      <speak>
+        <s>Now let's see the administrator profile</s>
+        <s>The administrator can activate the editing mode, which allows editing any element within the platform; such as users, learning paths, cohorts, courses, generating certificates, among others.</s>
+        <s>Within their profile, the administrator can view visual reports of the cohorts in which students participate.</s>
+        <s>Let's look at a cohort report</s>
+      </speak>
+    </media>
+
+    <media begin="4s">
+      <speak>
+        <s>Within the reports, we can see the list of students and their individual progress.</s>
+        <s>We can also see the attendance report, the grades and progress of the students with respect to each module and course of the learning path.</s>
+        <s>All these reports can be downloaded for further analysis.</s>
+      </speak>
+    </media>
+
+    <media begin="3s">
+      <speak>
+        <s>Both the administrator and other profiles can edit and create content.</s>
+        <s>A learning path is made up of several courses, which can be reused to build new custom paths.</s>
+        <s>Within each course there are modules that group common topics and that allow the student to be taught technical and human skills. Each of these modules can have a badge that will be part of the student profile as a micro credential.</s>
+        <s>The Ada School platform is built to offer an educational experience to as many people as possible, therefore all elements can have translations in several languages</s>
+      </speak>
+    </media>
+
+    <media begin="3s">
+      <speak>
+        <s>Admin can create new badges that can be assigned to a module or course for students to purchase.</s>
+        <s>You can also assign certificates to students.</s>
+        <s>Let's look at a digital certificate.</s>
+
+      </speak>
+    </media>
+
+    <media begin="5s">
+      <speak>
+        <s>To facilitate monitoring and help in operational tasks, there are general reports that the administrator can view; For example, the hours that each mentor dedicated to their live sessions.</s>
+        <s>The platform can also be used by organizations as a software as a service and supports interface customization.</s>
+      </speak>
+    </media>
+
+  </seq>
+</speak>

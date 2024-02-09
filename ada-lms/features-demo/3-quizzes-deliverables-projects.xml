@@ -1,0 +1,46 @@
+<speak>
+  <seq>
+
+    <media>
+      <speak>
+        <s>¿Conoces la frase; "dime y lo olvido, enseñame y lo recuerdo, involúcrame y lo aprendo"?</s>
+      </speak>
+    </media>
+
+    <media begin="1s">
+      <speak>
+        <s>Dentro de la experiencia de aprendizaje de Ada School, nuestros estudiantes aprenden primero las bases teóricas y luego practican y aplican sus conocimientos. Para esto existen varias pruebas, tales como Quizzes, entregables, laboratorios individuales, laboratorios grupales y proyectos.</s>
+      </speak>
+    </media>
+
+    <media begin="1s">
+      <speak>
+        <s>Acá puedes ver un ejemplo de uno de nuestros quizzes, incluyendo única o múltiples respuestas.</s>
+        <s>Completemos el quiz y veamos los resultados</s>
+      </speak>
+    </media>
+
+    <media begin="4s">
+      <speak>
+        <s>Los entregables permiten que nuestros estudiantes resuelvan tareas que serán calificadas por nuestros mentores</s>
+        <s>Completemos este entregable adjuntanto un link a nuestra solución</s>
+        <s>Después de completarla, nuestros mentores revisarán la solución asignando una nota con comentarios</s>
+      </speak>
+    </media>
+
+    <media begin="3s">
+      <speak>
+        <s>Los laboratorios son una serie de instrucciones que nuestros estudiantes deben seguir para completar el funcionamiento de un producto de software. Estos se califican mediante pruebas unitarias automatizadas y permiten que los estudiantes creen su propio código aplicando los conocimientos adquiridos.</s>
+        <s>Al completarlo, nuestros estudiantes obtendrán una nota y podrán continuar con la siguiente sección</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>Los proyectos son productos de software que los estudiantes construyen de manera incremental, aplicando en cada iteración el conocimiento de los módulos que han completado.</s>
+        <s>Al finalizar el sprint, los estudiantes presentan su producto en grupo, lo que mejora sus habilidades humanas de comunicación</s>
+      </speak>
+    </media>
+
+  </seq>
+</speak>

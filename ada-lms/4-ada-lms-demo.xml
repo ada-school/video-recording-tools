@@ -1,0 +1,47 @@
+<speak>
+  <seq>
+
+    <media>
+      <speak>
+        <s>Veamos ahora el perfil del administrador</s>
+        <s>El administrador puede activar el modo de edición, que permite editar cualquier elemento dentro de la plataforma; como usuarios, rutas de aprendizaje, cohortes, cursos, generar certificados, entre otros.</s>
+        <s>Dentro de su perfil, el administrador puede ver reportes visuales de las cohortes en las que los estudiantes participan.</s>
+        <s>Veamos un reporte de una cohorte</s>
+      </speak>
+    </media>
+
+    <media begin="4s">
+      <speak>
+        <s>Dentro de los reportes, podemos ver el listado de los estudiantes y su progreso individual.</s>
+        <s>También podemos ver el reporte de asistencia, las notas y progreso de los estudiantes con respecto a cada módulo y curso de la ruta de aprendizaje.</s>
+        <s>Todos estos reportes se pueden descargar para un análisis posterior.</s>
+      </speak>
+    </media>
+
+    <media begin="3s">
+      <speak>
+        <s>Tanto el administrador como otros perfiles, pueden editar y crear contenido.</s>
+        <s>Una ruta de aprendizaje se compone de varios cursos, que pueden re usarse para construir nuevas rutas personalizadas.</s>
+        <s>Dentro de cada curso existen módulos que agrupan temas comunes y que permiten enseñar al estudiante habilidades técnicas y humanas. Cada uno de estos módulos puede tener una insignia que hará parte del perfil de los estudiantes como una micro credencial.</s>
+        <s>La plataforma de Ada School, está construida para ofrecer una experiencia educativa a la mayor cantidad de personas posible, por lo tanto todos los elementos pueden tener traducciones en varios idiomas</s>
+      </speak>
+    </media>
+
+    <media begin="3s">
+      <speak>
+        <s>El administrador puede crear nuevas insignias que pueden asignarse a un módulo o curso para que los estudiantes puedan adquirirlas.</s>
+        <s>También puede asignar certificados a los estudiantes.</s>
+        <s>Veamos un certificado digital.</s>
+
+      </speak>
+    </media>
+
+    <media begin="5s">
+      <speak>
+        <s>Para facilitar el seguimiento y ayudar en tareas operativas, existen reportes generales que el administrador puede visualizar; por ejemplo las horas que cada mentor dedicó a sus sesiones en vivo.</s>
+        <s>La plataforma también puede ser usada por organizaciones como un software como servicio y soporta personalización de la interfaz.</s>
+      </speak>
+    </media>
+
+  </seq>
+</speak>

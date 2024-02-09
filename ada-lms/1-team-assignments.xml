@@ -1,0 +1,34 @@
+<speak>
+  <seq>
+
+    <media>
+      <speak>
+        <s>Hola. En este video de la plataforma de Ada School veremos los trabajos en equipo autocalificables.</s>
+        <s>Comencemos.</s>
+      </speak>
+    </media>
+    <media begin="2s">
+      <speak>
+        <s>En Ada School consideramos las habilidades humanas igual de importantes a las habilidades técnicas.</s>
+        <s>Una de las habilidades humanas más usadas en la industria es el trabajo en equipo.</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>La plataforma de Ada School, permite crear equipos de estudiantes dentro de una cohorte. Los estudiantes deciden cómo conformar los equipos para un trabajo en grupo.</s>
+        <s>Después de crear un equipo, cada integrante recibe una tarea diferente que hace parte de la tarea grupal.</s>
+        <s>Cada estudiante debe resolver su tarea con ayuda de los miembros de su equipo. Una ves resuelven la tarea, la plataforma usa pruebas unitarias para evaluar el resultado.</s>
+        <s>Cuando estas pruebas unitarias pasan, el resultado se sube a la plataforma para que los otros miembros del equipo puedan usarlo como parte de la tarea grupal.</s>
+        <s>cuando todos los integrantes del equipo han subido sus soluciones, se les asigna una nota y pueden progresar con otras tareas del curso </s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>La plataforma está construida con base en la metodología ágil de Ada School para fomentar tanto el trabajo individual como grupal.</s>
+      </speak>
+    </media>
+
+  </seq>
+</speak>

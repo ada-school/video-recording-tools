@@ -1,0 +1,49 @@
+<speak>
+  <seq>
+
+    <media>
+      <speak>
+        <s>Hola. En este video veremos un demo de la plataforma de aprendizaje de Ada School</s>
+        <s>Comencemos.</s>
+      </speak>
+    </media>
+    <media begin="2s">
+      <speak>
+        <s>Dentro de la comunidad de aprendizaje de Ada School, encontramos diferentes tipos de usuarios como: Mentores, estudiantes, administradores, entre otros.</s>
+        <s>Veamos primero la plataforma de aprendizaje desde la perspectiva de un estudiante.</s>
+      </speak>
+    </media>
+
+    <media begin="3s">
+      <speak>
+        <s>Al iniciar sesión el estudiante puede ver sus cursos y rutas de aprendizaje. Además de información relevante como notificaciones, y elementos de gamificación como monedas que tiene actualmente, número de insignias y nivel de experiencia.</s>
+        <s>Las insignias permitirán actuar como micro credenciales, que pueden usarse para demostrar habilidades técnicas y humanas cuando los estudiantes graduados inicien el proceso para mejorar sus condiciones laborales.</s>
+        <s>Las monedas permiten ser canjeadas por micro cursos que el estudiante puede usar para adquirir nuevas insignias y mejorar su perfil.</s>
+        <s>El nivel de experiencia aumenta conforme los elementos que se vayan completando; como contenido, quizzes y laboratorios grupales e individuales.</s>
+      </speak>
+    </media>
+
+    <media begin="1s">
+      <speak>
+        <s>La plataforma está construida con base en la metodología ágil de Ada School para fomentar tanto el trabajo individual como grupal.</s>
+        <s>Al entrar dentro de la ruta podemos ver el tablero en forma de tablero kanban.</s>
+        <s>Usando metodologías ágiles dentro del proceso de aprendizaje, los estudiantes se preparan para las herramientas que se usan en un ambiente laboral.</s>
+        <s>Dentro de este tablero también se puede encontrar un calendario con los siguientes eventos relevantes para el estudiante, tales como sesiones de mentoría o hackatones. Cada estudiante puede ver los eventos en su zona horaria.</s>
+        <s>El tablero también brinda información del progreso actual del estudiante dentro de la ruta, y cada uno de los cursos y módulos que la componen.</s>
+        <s>La nota actual basada en trabajos grupales, quizzes y proyectos de los cursos también se puede ver en el tablero.</s>
+        <s>Las sesiones en vivo quedan grabadas para que el estudiante pueda revisarlas de nuevo y brindar retroalimentación a nuestro equipo.</s>
+        <s>Veamos ahora un contenido interactivo.</s>
+      </speak>
+    </media>
+
+    <media begin="1s">
+      <speak>
+        <s>El estudiante puede ver diferentes tipos de contenido como artículos, videos, quizzes, laboratorios prácticos individuales y en grupo.</s>
+        <s>Al completar contenido o tener una buena nota en los quizzes, el estudiante va adquiriendo puntos de experiencia y monedas que podrá canjear en el futuro.</s>
+        <s>Al completar un tema, el estudiante recibe una insignia que será añadida a su conjunto de insignias para poder demostrar sus conocimientos técnicos frente a un empleador.</s>
+        <s>Al completar una ruta, el estudiante recibe un certificado digital que puede compartir en sus redes sociales.</s>
+      </speak>
+    </media>
+
+  </seq>
+</speak>

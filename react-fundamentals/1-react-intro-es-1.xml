@@ -1,0 +1,47 @@
+<speak>
+  <seq>
+
+    <media>
+      <speak>
+        <mark name="slide-title"/>
+        <s>Hola. En este video de Ada School veremos la introducción a React.</s>
+
+        <mark name="slide-objectives"/>
+        <s>El objetivo de hoy, es aprender que es React.</s>
+        <s>Comencemos.</s>
+      </speak>
+    </media>
+    <media begin="2s">
+      <speak>
+        <mark name="slide-recap-webapps"/>
+        <s>Antes de comprender React, debemos repasar cómo funcionan las aplicaciones web.</s>
+        <s>Recuerda que los 3 pilares del desarrollo web son: HTML, CSS, y JavaScript. Usando HTML podemos crear la estructura de nuestras aplicaciones. Con base en esta estructura podemos usar CSS para añadir estilo y diseño. Finalmente, podemos usar JavaScript para poder manipular nuestras aplicaciones y hacerlas más interactivas.</s>
+        <s>Recuerda que los navegadores son aplicaciones de software que permiten conectarse con sitios web presentes en Internet. Para poder ejecutar aplicaciones web, los navegadores descargan los archivos necesarios desde servidores remotos usando diferentes protocolos como HTTP. </s>
+        <s>Usando los 3 pilares podemos crear aplicaciones web. Sin embargo, a medida que nuestra aplicación crece, se vuelve más compleja de mantener, y es más difícil añadir nuevas funcionalidades. Para esto se crearon librerias y frameworks que permiten reusar partes de la aplicación; Ahorrando así valioso tiempo de desarrollo.</s>
+        <s>Una de las librerias creadas para este propósito, es React.</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <mark name="slide-react-history"/>
+        <s>React es una libreria de JavaScript para crear interfaces de usuario rápidas e interactivas.</s>
+        <s>Fue desarrollada en  Meta (Facebook) en 2011, y actualmente es la libreria de JavaScript más popular para crear interfaces de usuario, como puedes ver en las tendencias de Google y NPM.</s>
+        <s>Los otros dos jugadores son Ángular, y Vue, por lo que si deseas ampliar tus oportunidades de trabajo como desarrollador front-end, debes agregar React a tu currículum.</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>Aquí hay un ejemplo. Imaginemos que queremos crear una aplicación como Netflix. Podemos dividir esta página en componentes como: Barra de navegación, cinta de series, tarjetas de series, y título.</s>
+
+        <mark name="slide-react-components-tree"/>
+        <s>Aquí se ve una representación de estos componentes en un árbol.</s>
+
+        <mark name="slide-netflix-example"/>
+        <s>El componente de cinta de series incluye varios componentes de tarjetas. Cada componente de tarjeta puede incluir un componente ligero que podemos reutilizar en otras páginas o incluso en diferentes aplicaciones. Como puedes ver, cada componente es una pieza de la interfaz de usuario. Podemos construir estos componentes de forma aislada y luego juntarlos para construir interfaces de usuario complejas.</s>
+      </speak>
+    </media>
+
+  </seq>
+</speak>

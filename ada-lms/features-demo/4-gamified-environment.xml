@@ -1,0 +1,21 @@
+<speak>
+  <seq>
+
+    <media>
+      <speak>
+        <s>¿Conoces que es la gamificación?</s>
+
+      </speak>
+    </media>
+
+    <media begin="1s">
+      <speak>
+        <s>Mediante la gamificación, podemos generar experiencias mucho más motivadoras y productivas, aplicando elementos propios de juegos.</s>
+        <s>En Ada School tenemos varios elementos de juegos que se conectan con las habilidades de nuestros estudiantes.</s>
+        <s>Los puntos de experiencia y las estrellas, se adquieren cuando los estudiantes completan retos. Esto les permite comprar micro cursos adicionales y personalizar su avatar.</s>
+        <s>Al completar un módulo o curso los estudiantes adquieren insignias y certificados digitales, que representan el conocimiento adquirido. Esto no solo los motiva a adquirir más insignias sino complementa su perfil profesional.</s>
+      </speak>
+    </media>
+
+  </seq>
+</speak>

@@ -1,0 +1,44 @@
+<speak>
+  <seq>
+    <media>
+      <speak>
+        <mark name="slide-react-components"/>
+        <s>En el corazón de todas las aplicaciones de React encontramos componentes. Un componente es esencialmente una parte de la interfaz de usuario.</s>
+        <s>cuando creamos aplicaciones con React creamos un grupo de componentes aislados y reutilizables. Luego los juntamos para crear interfaces de usuario más complejas.</s>
+        <s>cada aplicación de React tiene al menos un componente al que nos referimos como el componente raíz. Este componente representa la aplicación interna y contiene otros componentes secundarios, por lo que cada aplicación de React es esencialmente un árbol de componentes.</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <mark name="slide-component-structure"/>
+        <s>Un componente generalmente se implementa como una función de JavaScript. Esta función recibe parámetros que llamamos propiedades; y es responsable de retornar cómo debería verse la interfaz de usuario usando HTML. Mediante las propiedades, los componentes pueden comunicarse entre sí.</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <mark name="slide-virtual-dom"/>
+        <s>El resultado de la función es un elemento de React. Que es un objeto simple de JavaScript que se asigna a un elemento Dom. No es un elemento Dom real; es solo un objeto JavaScript que representa ese elemento Dom en la memoria.</s>
+        <s> React mantiene una representación liviana del Dom en la memoria que se denomina Dom virtual. A diferencia del Dom real, este Dom virtual es barato de crear.</s>
+
+        <s>Cuando cambiamos el estado de un componente, obtenemos un nuevo elemento de React. React luego compara este elemento y sus hijos con el anterior. Si descubre qué ha cambiado, actualiza una parte del Dom real para mantenerlo sincronizado con el Dom virtual.</s>
+
+        <s>Esto significa que cuando construimos aplicaciones, a diferencia de Vanilla JavaScript o jQuery, ya no tenemos que trabajar directamente con la API del Dom en los navegadores. En otras palabras, ya no tenemos que escribir código para consultar y manipular el Dom. Simplemente, cambiamos el estado de nuestros componentes y React automáticamente actualiza el Dom para que coincida con ese estado.</s>
+
+        <s> Esto es exáctamente el porqué la librería se llama React. Porque cuando se cambia el estado, React esencialmente reacciona al cambio de estado y actualiza el componente.</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <mark name="slide-react-vs-angular"/>
+        <s>Las preguntas que a menudo recibiremos es si debemos usar React, Ángular o Vue. Tanto React como Ángular y Vue son similares en términos de su arquitectura basada en componentes. Ángular es un framework o una solución completa, mientras que React es una libreria. Solo se encarga de representar la vista y asegurarse de que la vista esté sincronizada con el estado.</s>
+
+        <s>Cuando creamos aplicaciones con React, necesitamos usar otras librerias para cosas como enrutar o llamar a servicios HTTP, etc.. Esto no es necesariamente algo malo porque puedes elegir las librerias que prefieras</s>
+
+        <s>En el siguiente video exploraremos en detalle la estructura de un componente de React</s>
+      </speak>
+    </media>
+  </seq>
+</speak>

@@ -1,0 +1,23 @@
+<speak>
+  <seq>
+
+    <media>
+      <speak>
+        <s>La experiencia de aprendizaje de Ada School, les permite a los administradores crear rutas de aprendizaje que se ajusten a sus necesidades</s>
+      </speak>
+    </media>
+
+    <media begin="2s">
+      <speak>
+        <s>Después de crear una ruta o usar una ruta predefinida por los expertos de Ada School, los administradores pueden usar los diferentes reportes para analizar el desempeño de sus estudiantes. Por ejemplo pueden ver los reportes de progreso, notas, entregables y asistencia.</s>
+      </speak>
+    </media>
+
+    <media begin="3s">
+      <speak>
+        <s>Nuestras integraciones con Slack, email y discord. Permiten mantener a la comunidad en contacto; informando de eventos, clases, y otras notificaciones importantes.</s>
+      </speak>
+    </media>
+
+  </seq>
+</speak>

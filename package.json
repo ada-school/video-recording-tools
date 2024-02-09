@@ -1,0 +1,18 @@
+{
+  "name": "video-recordings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "text-to-speech.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "convert": "cross-env GOOGLE_APPLICATION_CREDENTIALS=\"ada-school-creds.json\" node text-to-speech.js"
+  },
+  "author": "Gabriel Bernal<gabriel@ada-school.org>",
+  "license": "private",
+  "type": "module",
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^4.0.2",
+    "cross-env": "^7.0.3",
+    "inquirer": "^9.1.1"
+  }
+}
